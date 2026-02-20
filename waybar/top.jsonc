@@ -9,7 +9,7 @@
     "margin-right": 0,
 
     "modules-left": [
-        "hyprland/window",
+        "niri/window",
         "custom/spacerLeft"
     ],
     "modules-center": [
@@ -26,10 +26,8 @@
         "battery"
     ],
 
-    "hyprland/window": {
+    "niri/window": {
         "format": "{class} {title}",
-        "separate-outputs": true,
-        "icon": false,
         "rewrite": {
             "(.*)ghostty(.*)": "[ GHOSTTY 幽霊 ]",
             "(.*)Qmmp(.*)": "[ QMMP 音楽 ]",  
