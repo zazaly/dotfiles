@@ -13,7 +13,7 @@
 "margin-right" : 0,
 
 "modules-left": [
-"hyprland/workspaces"
+"niri/workspaces"
 ],
 
 "modules-center": [
@@ -26,7 +26,7 @@
 "custom/nix",
 "custom/steam",
 "custom/discord",
-"custom/hyprlock",
+"custom/lock",
 "custom/dna",
 "custom/dna",
 "custom/dna"
@@ -39,7 +39,7 @@
 "custom/power"
 ],
 
-"hyprland/workspaces": {
+"niri/workspaces": {
 "format": "{icon}",
 "format-icons": {
 "1": "一",
@@ -54,10 +54,7 @@
 "10": "十"
 },
 
-"persistent-workspaces": {
-"*": [ 1,2,3,4,5,6,7,8,9,10 ],
-"HDMI-A-1": [ 1,2,3,4,5,6,7,8,9 ]
- }
+"all-outputs": true
 
  },
 
@@ -90,9 +87,9 @@
 
 },
 
-"custom/hyprlock": {
+"custom/lock": {
 "format":"",
-"on-click":"hyprlock"
+"on-click":"loginctl lock-session"
 },
 
 "custom/ghostty": {
